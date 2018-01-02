@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 11, 2017, 9:30:28 AM
+    Author     : pavikumbhar
+*/
+
+#customForm {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#customForm fieldset {
+	flex: 1;
+	border: 1px solid #aaa;
+	margin: 0.5em;
+}
+
+#customForm fieldset legend {
+	padding: 5px 20px;
+	border: 1px solid #aaa;
+	font-weight: bold;
+}
+
+#customForm fieldset.name {
+	flex: 2 100%;
+}
+
+#customForm fieldset.name legend {
+	background: #bfffbf;
+}
+
+#customForm fieldset.office legend {
+	background: #ffffbf;
+}
+
+#customForm fieldset.hr legend {
+	background: #ffbfbf;
+}
+
+#customForm div.DTE_Field {
+	padding: 5px;
+}
